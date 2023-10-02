@@ -7,7 +7,7 @@
  The "ABC Sales Forecasting" dataset available on Kaggle is a comprehensive dataset that provides historical sales data for various retail stores and departments. This dataset is suitable for retail sales analysis and demand forecasting projects. 
  The dataset contains several key features and columns that will be used for analysis and forecasting:
 
-Store: An identifier for the Walmart store.
+Store: An identifier for the store.
 
 Dept: An identifier for the department within the store.
 
