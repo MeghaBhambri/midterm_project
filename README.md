@@ -1,57 +1,77 @@
+# Weekly Sales Analysis of a Retail Store
 
-# Topic of Project
- Weekly Sales Analysis of a  retail store.
+## Short Introduction
 
-## Short introduction
+The "ABC Sales Forecasting" dataset available on Kaggle is a comprehensive dataset that provides historical sales data for various retail stores and departments. This dataset is suitable for retail sales analysis and demand forecasting projects. The dataset contains several key features and columns that will be used for analysis and forecasting:
 
- The "ABC Sales Forecasting" dataset available on Kaggle is a comprehensive dataset that provides historical sales data for various retail stores and departments. This dataset is suitable for retail sales analysis and demand forecasting projects. 
- The dataset contains several key features and columns that will be used for analysis and forecasting:
+- **Store**: An identifier for the store.
+- **Dept**: An identifier for the department within the store.
+- **Date**: The date of the sale.
+- **Weekly_Sales**: The weekly sales for the given store and department.
+- **IsHoliday**: A boolean flag indicating whether the week includes a holiday.
+- **Temperature**: The average temperature in the region.
+- **Fuel_Price**: The cost of fuel in the region.
+- **CPI (Consumer Price Index)**: The Consumer Price Index for the region.
+- **Unemployment**: The unemployment rate in the region.
+- **Markdown**: The discounts offered.
 
-Store: An identifier for the store.
+## Questions for Analysis
 
-Dept: An identifier for the department within the store.
+### Question 1
 
-Date: The date of the sale.
+- How do different types of stores (e.g., Type A, Type B, Type C) perform in terms of average weekly sales and growth over time?
 
-Weekly_Sales: The weekly sales for the given store and department.
+### Question 2
 
-IsHoliday: A boolean flag indicating whether the week includes a holiday.
+- Are there significant seasonal patterns in average weekly sales? Analyze.
 
-Temperature: The average temperature in the region.
+### Question 3
 
-Fuel_Price: The cost of fuel in the region.
+- How do external factors such as temperature, fuel prices, CPI, and unemployment rates affect weekly sales?
 
-CPI (Consumer Price Index): The Consumer Price Index for the region.
+### Question 4
 
-Unemployment: The unemployment rate in the region.
+- How do holidays impact weekly sales? Compare the sales during holiday weeks to non-holiday weeks.
 
-## What are questions we want to answer
+### Question 5
 
-Questions for analysis:
+- Do promotional markdowns lead to increased weekly sales?
 
-Question: 1 How do different types of stores (e.g., Type A, Type B, Type C) perform in terms of average weekly sales and growth over time?
+## Source of Data
 
-Question:2 Are there significant seasonal patterns in average weekly sales?Analyse.
-
-Question:3 How do external factors such as temperature, fuel prices, CPI, and unemployment rates affect weekly sales?
-
-Question: 4 How do holidays impact weekly sales? Compare the sales during holiday weeks to non-holiday weeks.
-
-Question: 5 Do promotional markdowns lead to increased weekly sales?
-
-
-## Source of data
-
-example kaggle
+The dataset was obtained from Kaggle.
 
 ## Findings
 
-Briefly answers to questions, findings, issues with data set.
+### Question 1/Answer
+
+1. The order of average weekly sales is A > B > C.
+2. Peak sales occur in the months of December and November. Stores A and B follow the same pattern, but store C shows no change in weekly sales.
+
+### Question 2/Answer
+
+Significant seasonal patterns in average weekly sales include a peak in December, stability in sales across three years, a rising trend from October onwards, dips in January, and a notable decline in September. Understanding these patterns can help businesses better plan their inventory, marketing strategies, and promotions to maximize sales throughout the year.
+
+### Question 3/Answer
+
+There is no linear relationship between weekly sales and external factors such as temperature, fuel prices, CPI, and unemployment rates.
+
+### Question 4/Answer
+
+The t-test results indicate that the observed difference in mean sales between holiday and non-holiday weeks is highly unlikely to have occurred by random chance alone. Therefore, it provides evidence that holidays do have a significant impact on weekly sales, at least in terms of their mean values.
+
+### Question 5/Answer
+
+Overall, the correlations between individual markdown types and weekly sales are relatively weak, indicating that there is not a strong linear relationship between the presence of these markdowns and the weekly sales figures. However, correlations only measure linear relationships, and there may be more complex or non-linear interactions to explore.
+
+When interpreting correlations, it's important to keep in mind that correlation does not imply causation. A lack of strong correlation does not necessarily mean that markdowns do not impact sales; it might mean that their impact is not purely linear or that other factors play a significant role.
+
+Holidays combined with markdowns tend to show higher average weekly sales. This is evident in the analysis where you compared mean sales during holiday weeks with and without markdowns.
 
 ## Conclusion
 
- main take aways.
+Store A consistently outperforms B and C, with peak sales in December. Weekly sales follow seasonal patterns, rising from October and dipping in January. Holidays significantly boost sales, especially when combined with markdowns, while external factors show weak correlations.
 
-## Next steps
+## Next Steps
 
- I would like in future./..
+In the future, further analysis and modeling could be performed to develop more accurate sales forecasts and explore the impact of other potential factors on weekly sales. Additionally, strategies for optimizing markdowns and holiday promotions can be devised to enhance overall sales performance.
