@@ -13,7 +13,7 @@ The "ABC Sales Forecasting" dataset available on Kaggle is a comprehensive datas
 - **Fuel_Price**: The cost of fuel in the region.
 - **CPI (Consumer Price Index)**: The Consumer Price Index for the region.
 - **Unemployment**: The unemployment rate in the region.
-- **Markdown**: The discounts offered.
+- **Markdown**: The discounts/promotions offered.
 
 ## Questions for Analysis
 
@@ -35,7 +35,7 @@ The "ABC Sales Forecasting" dataset available on Kaggle is a comprehensive datas
 
 ### Question 5
 
-- Do promotional markdowns lead to increased weekly sales?
+- Do promotional promotions lead to increased weekly sales?
 
 ## Source of Data
 
@@ -62,16 +62,16 @@ The t-test results indicate that the observed difference in mean sales between h
 
 ### Question 5/Answer
 
-Overall, the correlations between individual markdown types and weekly sales are relatively weak, indicating that there is not a strong linear relationship between the presence of these markdowns and the weekly sales figures. However, correlations only measure linear relationships, and there may be more complex or non-linear interactions to explore.
+Overall, the correlations between individual promotion types and weekly sales are relatively weak, indicating that there is not a strong linear relationship between the presence of these promotions and the weekly sales figures. However, correlations only measure linear relationships, and there may be more complex or non-linear interactions to explore.
 
 When interpreting correlations, it's important to keep in mind that correlation does not imply causation. A lack of strong correlation does not necessarily mean that markdowns do not impact sales; it might mean that their impact is not purely linear or that other factors play a significant role.
 
-Holidays combined with markdowns tend to show higher average weekly sales. This is evident in the analysis where you compared mean sales during holiday weeks with and without markdowns.
+Holidays combined with promotions tend to show higher average weekly sales. This is evident in the analysis where comparison in mean sales during holiday weeks with and without promotions.
 
 ## Conclusion
 
-Store A consistently outperforms B and C, with peak sales in December. Weekly sales follow seasonal patterns, rising from October and dipping in January. Holidays significantly boost sales, especially when combined with markdowns, while external factors show weak correlations.
+Store A consistently outperforms B and C, with peak sales in December. Weekly sales follow seasonal patterns, rising from October and dipping in January. Holidays significantly boost sales, especially when combined with promotions, while external factors show weak correlations.
 
 ## Next Steps
 
-In the future, further analysis and modeling could be performed to develop more accurate sales forecasts and explore the impact of other potential factors on weekly sales. Additionally, strategies for optimizing markdowns and holiday promotions can be devised to enhance overall sales performance.
+In the future, further analysis and modeling could be performed to develop more accurate sales forecasts and explore the impact of other potential factors on weekly sales. Additionally, strategies for optimizing promotions and holiday promotions can be devised to enhance overall sales performance.
